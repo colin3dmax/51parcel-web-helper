@@ -1,0 +1,24 @@
+{
+  "name": "51parcel-web-helper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node node_modules/less-watch-compile -w src -o dist",
+    "dev2": "node node_modules/less-watch-compile -w <dir> -o <dir> -f <path>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/colin3dmax/51parcel-web-helper.git"
+  },
+  "author": "Colin3dmax",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/colin3dmax/51parcel-web-helper/issues"
+  },
+  "homepage": "https://github.com/colin3dmax/51parcel-web-helper#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "less-watch-compile": "^1.1.8"
+  }
+}
